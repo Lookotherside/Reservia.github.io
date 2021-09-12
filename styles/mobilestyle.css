@@ -112,6 +112,7 @@
     order: 1; 
     width: 100%;
     margin-left: 0;
+    margin-top: -80px;
   
   }
   
@@ -120,10 +121,16 @@
    border-top: 0;
    border-bottom: 5px solid #f2f2f2;
   }
+  .Lieninscrit{
+    position: relative;
+    bottom:80px;
+    left: 230px;
+  }
   .TLiens{
     width:100%;
     flex-direction: row;
     flex-wrap: wrap;
+  
   }
   .TLienMobile:hover{
    border-top: 0;
@@ -187,10 +194,43 @@
   .elementActivites{
     padding: 5%;
   }
-  
+  .groupActivites{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .elementActivites2356{
+    width: 100%;
+    height: auto;
+  }
+  .groupActivites2356{
+    width: auto;
+    margin-bottom: 50px;
+  }
+  .imgActivites1,
+  .imgActivites2,
+  .imgActivites3,
+  .imgActivites4,
+  .imgActivites5,
+  .imgActivites6{
+    height: 200px;
+  }
+
+  .imgActivites2,
+  .imgActivites3,
+  .imgActivites5,
+  .imgActivites6{
+    width:100%;
+  }
+
+
   html,body{
     margin: 0;
     padding: 0;
   }
   
+  }
+
+  @media screen and (max-width: 600px){
+
+
   }
